@@ -2,7 +2,7 @@
 ===
 
 
-###合并压缩前
+合并压缩前
 
 ```
 --Gruntfile.js	--打包脚本
@@ -36,14 +36,14 @@
 ------widget/dialog/src/imgs
 ```
 
-###构建步骤
+构建步骤
 ```
 npm install
 grunt build-widget
 grunt build-page
 ```
 
-###合并压缩后
+合并压缩后
 ```
 ......
 --asset
@@ -66,7 +66,8 @@ grunt build-page
 ```
 合并压缩时，将page依赖的business合并到一起，包括css、图像文件夹。
 
-###开发使用注意
+开发使用注意
+
 page、business、widget的文件夹里只能放一级功能目录，
 
     --page
@@ -109,6 +110,5 @@ page、business、widget的文件夹里只能放一级功能目录，
 
     spm是寄托在支付宝内部前端开发体系上，脱离这个体系使用有诸多问题。
 在网上搜索seajs前端工程demo，虽然找到几个，但是没有一个满足我的需要，于是有了这个demo。
-
 
 注：这个demo还是太简单，如果想要让开发们舒服的使用，还有许多要完善
